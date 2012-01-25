@@ -2005,6 +2005,9 @@ API.filterStorage = function(filter) {
 // For now this is used for inline doc editor.
 API.cachedDocs = {};
 API.cacheDoc = function(doc) {
+    if (!doc)
+        return;
+
     API.cachedDocs[doc._id] = doc;
     if (doc.intId) {
 
