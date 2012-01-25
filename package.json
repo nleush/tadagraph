@@ -1,0 +1,22 @@
+{
+    "name": "cosmos",
+    "version": "0.1.1",
+    
+    "bundledDependencies": [
+        "core"
+    ],
+    
+    "resources": {
+        "db": {
+            "type": "couchdb"
+        }
+    },
+    
+    "build": {
+        "modules": {
+            "core": {
+                "target": "db"
+            }
+        }
+    }
+}

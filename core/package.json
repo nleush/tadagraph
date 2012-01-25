@@ -1,0 +1,11 @@
+{
+    "name": "tadagraph-core",
+    "description": "...",
+    "version": "0.0.1",
+    "author": "",
+    "keywords": ["admin"],
+    "dependencies": {
+    },
+    
+    "engines": {"couchdb": "1.1.x"}
+}
